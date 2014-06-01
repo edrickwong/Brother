@@ -13,3 +13,9 @@ $(document).ready(function() {
     });
     
 });
+
+$("#copy").click(function() {
+    $("#mainMenu").fadeOut();
+    $("#copyMenu").fadeIn();
+});
+    

@@ -3,7 +3,7 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.container>#time, .container>#mainMenu{
+.container>#time, .container>#mainMenu, .container>#copyMenu{
     display: none;
 }
 
