@@ -17,6 +17,7 @@ $(document).ready(function() {
 $("#copy").click(function() {
     $("#mainMenu").fadeOut();
     $("#copyMenu").fadeIn();
+    progress(100,$("#progressBar"));
 });
     
 	
@@ -54,5 +55,10 @@ $('.btn-toggle').click(function() {
     $(this).find('.btn').toggleClass('btn-default');
        
 });
+
+function progress(percent, $element) {
+    var progressBarWidth = percent * $element.width() / 100;
+    $element.find('div').animate({ width: progressBarWidth }, 3000).html(percent + "%&nbsp;");
+}
 
 
