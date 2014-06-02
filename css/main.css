@@ -3,7 +3,7 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.container>#time, .container>#mainMenu, .container>#copyMenu{
+.container>#time, .container>#mainMenu, .container>#copyMenu, .container>#progressPage{
     display: none;
 }
 
@@ -38,6 +38,11 @@
         line-height: 22px;
         width: 0;
         background-color: #0099ff;
+}
+
+#progressPage{
+    margin-top: 20%;
+    margin-bottom: auto;
 }
 
 
