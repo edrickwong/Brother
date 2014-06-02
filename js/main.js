@@ -38,4 +38,9 @@ function showDefault(){
     $("#mainMenu").fadeIn();
 }
 
+$("#back").click(function(){
+    $("#copyMenu").fadeOut();
+    $("#mainMenu").fadeIn();
+});
+
 
